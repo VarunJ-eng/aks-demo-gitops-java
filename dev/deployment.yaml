@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: aks-demo-app
+  name: aks-demo-app-java
   namespace: dev
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: aks-demo-app
+      app: aks-demo-app-java
   template:
     metadata:
       labels:
-        app: aks-demo-app
+        app: aks-demo-app-java
     spec:
       containers:
-        - name: aks-demo-app
-          image: varunaks1793257564.azurecr.io/aks-demo-app-java:bfa71c05073c3b4c1939c34e05d2b89821ac70282a9c1c6d263babd3f2c5fac4
+        - name: aks-demo-app-java
+          image: varunaks1793257564.azurecr.io/aks-demo-app-java:5660323141137302271072aad03d74957722af5b
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
