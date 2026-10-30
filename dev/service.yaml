@@ -6,7 +6,7 @@ metadata:
 spec:
   type: ClusterIP
   selector:
-    app: aks-demo-app
+    app: aks-demo-app-java
   ports:
     - protocol: TCP
       port: 80
