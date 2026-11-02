@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: aks-demo-app-java
-          image: varunaks1793257564.azurecr.io/aks-demo-app-java:5660323141137302271072aad03d74957722af5b
+          image: 487043668737.dkr.ecr.ap-south-1.amazonaws.com/aks-demo-app-java:d7259510a52bf68547d22a0d0c7461537385b335-41474295963-1
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
