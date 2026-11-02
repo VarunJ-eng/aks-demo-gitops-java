@@ -9,6 +9,9 @@ spec:
     - ReadWriteMany
   persistentVolumeReclaimPolicy: Retain
   storageClassName: ""
+  claimRef:
+    namespace: dev
+    name: s3-pvc
   mountOptions:
     - region ap-south-1
   csi:
@@ -17,3 +20,4 @@ spec:
     volumeAttributes:
       bucketName: eks-demo-s3-487043668737-ap-south-1
       authenticationSource: pod
+      stsRegion: ap-south-1
