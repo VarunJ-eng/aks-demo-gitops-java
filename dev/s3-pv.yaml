@@ -20,4 +20,3 @@ spec:
     volumeAttributes:
       bucketName: eks-demo-s3-487043668737-ap-south-1
       authenticationSource: pod
-      stsRegion: ap-south-1
