@@ -16,7 +16,7 @@ spec:
       serviceAccountName: s3-access-sa
       containers:
         - name: aks-demo-app-java
-          image: 487043668737.dkr.ecr.ap-south-1.amazonaws.com/aks-demo-app-java:7c7eb93a79e5009603f7edd39b9fa5605033e862-41509116614-1
+          image: 487043668737.dkr.ecr.ap-south-1.amazonaws.com/aks-demo-app-java:7114f4b43c5e0c210ea0a08c3c6c4cb98cc6e57a-41576972761-1
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
