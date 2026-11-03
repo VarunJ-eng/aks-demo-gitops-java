@@ -4,7 +4,7 @@ metadata:
   name: aks-demo-app-java
   namespace: dev
 spec:
-  replicas: 3
+  replicas: 1
   selector:
     matchLabels:
       app: aks-demo-app-java
